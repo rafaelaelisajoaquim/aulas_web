@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Tabelas</title>
+</head>
+<body>
+
+    <!-- ALINHA A TABELA E AS CÉLULAS DENTRO DELA, COLOCA BORDA E DEIXA AMBOS CENTRALIZADA -->
+    <center><h1>ALINHAMENTO DE TABELA E CELULAS</h1></center>
+    <table border="1" align="center">
+    <td>Primeira Celula</td>
+    <td>Segunda Celula</td>
+    <td>Terceira Celula</td>
+
+    <!-- O TEXTO DENTRO DA CÉLULA FICA NO CENTRO, NA ESQUERDA E NA DIREITA -->
+    <tr>
+        <td align="center">Centro</td>
+        <td align="left">Esquerda</td>
+        <td align="right">Direita</td>
+    </tr>
+    </table>
+
+<br>
+<br>
+    <!-- AUMENTA O ESPAÇO DA MARGEM -->
+    <center><h1>USO DO CELLSPACING</h1></center>
+    <table border="1" width="80%" cellspacing="24" align="center">
+        <tr>
+            <td width="33%" align="center">Coluna 1</td>
+            <td width="33%" align="center">Coluna 2</td>
+            <td width="34%" align="center">Coluna 3</td>
+        </tr>
+    </table>
+
+<br>
+<br>
+    <!-- AUMENTA O ESPAÇO DA CÉLULA -->
+    <center><h1>USO DO CELLPADDING</h1></center>
+    <table border="1" width="80%" cellpadding="24" align="center">
+        <tr>
+            <td width="25%" align="center">Aluno</td>
+            <td width="30%" align="center">Professor</td>
+            <td width="45%" align="center">Tec. Desenv</td>
+        </tr>
+    </table>
+
+<br>
+<br>
+    <!-- MESCLA LINHAS -->
+    <center><h1>USO DO ROWSPAN</h1></center>
+    <table border="3" width="90%" cellpadding="7" align="center">
+        <tr>
+            <td width="16%" rowspan="3">3 Linhas</td>
+            <td width="16%" >L1 Coluna 2</td>
+            <td width="16%" >L1 Coluna 3</td>
+            <td width="17%">L1 Coluna 4</td>
+            <td width="17%" >L1 Coluna 5</td>
+        </tr>
+
+        <tr>
+            <td width="16%" >L2 Coluna 2</td>
+            <td width="16%" >L2 Coluna 3</td>
+            <td width="17%" >L2 Coluna 4</td>
+            <td width="17%" >L2 Coluna 5</td>
+        </tr>
+
+        <tr>
+            <td width="16%">L3 Coluna 2</td>
+            <td width="16%" >L3 Coluna 3</td>
+            <td width="17%" >L3 Coluna 4</td>
+            <td width="17%" >L3 Coluna 5</td>
+        </tr>
+    </table>
+
+<br>
+<br>
+    <!-- MESCLA COLUNAS -->
+    <center><h1>USO DO COLSPAN</h1></center>
+    <table border="3" width="90%" cellpadding="7" align="center">
+        <tr>
+            <td width="16%" colspan="3">Celula com 3 colunas</td>
+            <td width="16%" >L1 Coluna 4</td>
+            <td width="16%" >L1 Coluna 5</td>
+        </tr>
+
+        <tr>
+            <td width="16%" bgcolor="green">L2 Coluna 1</td>
+            <td width="16%" bgcolor="blue">L2 Coluna 2</td>
+            <td width="16%" bgcolor="yellow">L2 Coluna 3</td>
+            <td width="16%" colspan="2" bgcolor="red">Celula com 2 colunas</td>
+        </tr>
+    </table>
+
+<br><br><br><br><br><br><br>
+<hr/>
+<center>
+    <address>
+        Rafaela Elisa Joaquim / Estudante / Técnico de desenvolvimento de sistemas
+    </address>
+    </center>
+</body>
+</html>
